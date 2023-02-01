@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px red solid;
+}
+
+.hero {
+    background-color: #1f2937;
+    height: 30vh;
+}
+
+.header-nav button {
+    margin-left: 20px;
+}
+
+.header-logo {
+    width: 50%;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    justify-content: space-between;
+}

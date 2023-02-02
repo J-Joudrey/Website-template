@@ -2,24 +2,62 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px red solid;
+
 }
 
 .hero {
     background-color: #1f2937;
     height: 30vh;
+    border: 1px purple solid;
 }
 
-.header-nav button {
-    margin-left: 20px;
+.header-nav {
+    height: 5vh;
 }
+
 
 .header-logo {
     width: 50%;
+    border: 1px red solid;
 }
 
+.hero-banner {
+    display: flex;
+    border: 1px yellowgreen dashed;
+    height: 20vh;
+    width: auto;
+    margin: 0 10vw 0 10vw;
+}
+
+.hero-content {
+    border: 1px red solid;
+    width: 50%;
+}
+.hero-image {
+    background-color: #9a9a9a;
+    display: flex;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+}
+.section-two {
+    height: 25vh;
+    background-color: ;
+}
+
+.section-three {
+    height: 25vh;
+    background-color: #e5e7eb;
+}
 button {
+    display: inline-block;
+    justify-content: space-between;
     background-color: transparent;
     border: none;
-    justify-content: space-between;
+    padding: 15px 15px 15px 15px;
+
+}
+
+button:hover {
+    background-color: #0f131a;
 }

@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: roboto;
 }
 
 .hero {
     background-color: #1f2937;
-    height: 30vh;
+    height: 350px;
     border: 1px purple solid;
 }
 
@@ -18,34 +18,51 @@
 
 }
 
-
 .header-logo {
     width: 50%;
-    border: 1px red solid;
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 .hero-banner {
     display: flex;
-    border: 1px yellowgreen dashed;
     height: 20vh;
     width: auto;
-    margin: 0 10vw 0 10vw;
+    margin: 3vh 10vw 0 10vw;
 }
 
 .hero-content {
     border: 1px red solid;
     width: 50%;
+
+}
+.hero-main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.hero-sub-text {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 .hero-image {
-    background-color: #9a9a9a;
     display: flex;
-    width: 50%;
-    text-align: center;
+    align-items: center;
     justify-content: center;
+    text-align: center;
+    width: 50%;
+    background-color: #9a9a9a;
+
 }
 .section-two {
     background-color: #444;
-    height: 40vh;
+    border: 1px greenyellow solid;
+    height: 350px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
 }
 
 .product-wrapper {
@@ -55,27 +72,31 @@
 }
 
 .product-text {
-    margin-bottom: 20px;
+    padding: 20px;
 }
 .product-content {
+    border: 1px yellowgreen solid;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: #777;
-    width: auto;
-    
+    justify-content: space-around;
+    margin: 0 10vw 0 10vw
+
 }
 .product-box {
-    border: 1px red solid;
-    display: inline-block;
-    justify-content: space-between;
-    height: 100px;
-    width: 100px;
+    border: 4px #3882f6 solid;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
 }
 
+.box-text {
+    border: 1px red dashed;
+    display: flex;
+    width: 150px;
+}
 .section-three {
-    height: 25vh;
-    background-color: #e5e7eb;
+    height: 350px;
+    background-color: #E5E7EB;
 }
 
 .call-to-action{

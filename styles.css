@@ -40,7 +40,6 @@
     display: flex;
     margin: 5vh auto;
     width: 70vw;
-    border: 1px red solid;
 }
 
 .hero-banner {
@@ -97,7 +96,8 @@
     align-items: center;
     justify-content: space-around;
     margin: 0 auto;
-    width: 70%;
+    width: 50%;
+    border: 1px red solid;
 
 }
 .product-box {
@@ -120,13 +120,7 @@
     background-color: #E5E7EB;
 }
 
-.test-quote {
-    border: 1px red dashed;
-    
-}
-
 .quote-wrapper {
-    border: 1px red solid;
     margin: 0 auto;
 }
 
@@ -142,18 +136,29 @@
     text-align: right;
 }
 
+.section-four {
+    height: 33vh;
+    display: flex;
+    margin: 0 auto;
+}
 
 .call-to-action{
     display: flex;
     justify-content: center;
-    text-align: left;
+    align-items: center;
     background-color: #3882f6;
-    margin: 0 auto;
+    margin: 9vh auto;
+    border-radius: 10px;
+}
+
+
+.action-block {
+    margin-left: 5em;
 
 }
 
-.action-block {
-    text-align: center;
+.action-sign-up {
+    padding: 5em
 }
 .sign-up {
     background-color: #3882f6;
@@ -167,10 +172,13 @@ button {
     justify-content: space-between;
     background-color: transparent;
     border: none;
-    padding: 15px px 15px 15px;
+    padding: 15px 10px 15px 15px;
 
 }
 
+.action {
+    border: 2px white solid;
+}
 button:hover {
     background-color: #0f131a;
 }

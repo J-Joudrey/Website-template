@@ -7,6 +7,10 @@
     font-family: roboto;
 }
 
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
 .hero {
     background-color: #1f2937;
     padding-bottom: 40px;
@@ -97,8 +101,6 @@
     justify-content: space-around;
     margin: 0 auto;
     width: 50%;
-    border: 1px red solid;
-
 }
 .product-box {
     border: 4px #3882f6 solid;

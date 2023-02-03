@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,56 +9,73 @@
 
 .hero {
     background-color: #1f2937;
-    height: 350px;
-    border: 1px purple solid;
+    padding-bottom: 40px;
 }
 
+.nav {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 70vw;
+}
 .header-nav {
-    border: 1px red dashed;
-    display: inline;
+    display: flex;
+    justify-content: space-around;
     width: 50%;
+}
 
+.nav-button {
+    padding: 20px;
 }
 
 .header-logo {
+    text-align: left;
+    padding: 20px;
     width: 50%;
     color: #F9FAF8;
     font-size: 24px;
 }
 
+.hero-wrapper {
+    display: flex;
+    margin: 5vh auto;
+    width: 70vw;
+    border: 1px red solid;
+}
+
 .hero-banner {
     display: flex;
-    height: 20vh;
-    width: auto;
-    margin: 3vh 10vw 0 10vw;
+
 }
 
 .hero-content {
-    border: 1px red solid;
     width: 50%;
-
 }
+
 .hero-main-text {
     color: #F9FAF8;
     font-size: 48px;
+    width: 75%;
 }
 
 .hero-sub-text {
+    width: 90%;
     color: #E5E7EB;
     font-size: 18px;
+    margin-bottom: 10px;
 }
+
 .hero-image {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     width: 50%;
+    height: auto;
     background-color: #9a9a9a;
 
 }
 .section-two {
-    background-color: #444;
-    border: 1px greenyellow solid;
     height: 350px;
     display: block;
     justify-content: center;
@@ -66,20 +85,19 @@
 }
 
 .product-wrapper {
-    border: 1px red solid;
-    padding: 20px;
     text-align: center;
 }
 
 .product-text {
     padding: 20px;
+    margin-bottom: 10px;
 }
 .product-content {
-    border: 1px yellowgreen solid;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 0 10vw 0 10vw
+    margin: 0 auto;
+    width: 70%;
 
 }
 .product-box {
@@ -90,17 +108,48 @@
 }
 
 .box-text {
-    border: 1px red dashed;
+    padding-top: 10px;
     display: flex;
     width: 150px;
 }
 .section-three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 350px;
     background-color: #E5E7EB;
 }
 
+.test-quote {
+    border: 1px red dashed;
+    
+}
+
+.quote-wrapper {
+    border: 1px red solid;
+    margin: 0 auto;
+}
+
+.quote {
+    width: 60vw;
+    font-size: 30px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-style: bold;
+    text-align: right;
+}
+
+
 .call-to-action{
+    display: flex;
+    justify-content: center;
+    text-align: left;
     background-color: #3882f6;
+    margin: 0 auto;
+
 }
 
 .action-block {
@@ -108,15 +157,17 @@
 }
 .sign-up {
     background-color: #3882f6;
-    padding: 5px 10px 5px 10px;
-    border-radius: 10px;
+    color: #F9FAF8;
+    padding: 5px 25px 5px 25px;
+    border-radius: 7px ;
 }
+
 button {
     display: inline-block;
     justify-content: space-between;
     background-color: transparent;
     border: none;
-    padding: 15px 15px 15px 15px;
+    padding: 15px px 15px 15px;
 
 }
 
@@ -124,6 +175,10 @@ button:hover {
     background-color: #0f131a;
 }
 
+.sign-up:hover {
+    background-color: #074dbd;
+
+}
 footer {
     display: flex;
     justify-content: center;

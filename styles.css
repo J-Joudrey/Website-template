@@ -12,15 +12,23 @@ a {
     color: #F9FAF8;
 }
 .hero {
-    background-color: #1f2937;
+    background-image: linear-gradient(#8e4d39 , #d8a667);
     padding-bottom: 40px;
 }
 
+.logo {
+    width: 50px;
+    height: auto;
+    margin-left: 3em;
+    border: 1px solid #000;
+
+}
 .nav {
     display: flex;
     align-items: center;
     margin: 0 auto;
-    width: 70vw;
+    width: 100;
+    background-color: rgba(0, 0, 0, .25);
 }
 .header-nav {
     display: flex;
@@ -33,7 +41,7 @@ a {
 }
 
 .header-logo {
-    text-align: left;
+    text-align: center;
     padding: 20px;
     width: 50%;
     color: #F9FAF8;
@@ -43,12 +51,14 @@ a {
 .hero-wrapper {
     display: flex;
     margin: 5vh auto;
+    background-image: linear-gradient( rgba(0,0,0,.3) , rgba(0,0,0,.0));
     width: 70vw;
+    padding: 2em;
+    border-radius: 2em;
 }
 
 .hero-banner {
     display: flex;
-
 }
 
 .hero-content {
@@ -75,16 +85,16 @@ a {
     text-align: center;
     width: 50%;
     height: auto;
-    background-color: #9a9a9a;
+
 
 }
 .section-two {
-    height: 350px;
     display: block;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+    padding-bottom: 3em;
+    background-image: linear-gradient(#d8a667 , #dbc9bd);    
 }
 
 .product-wrapper {
@@ -119,7 +129,8 @@ a {
     align-items: center;
     justify-content: center;
     height: 350px;
-    background-color: #E5E7EB;
+    background-image: linear-gradient();
+    background-color: #dbc9bd;
 }
 
 .quote-wrapper {
@@ -139,6 +150,7 @@ a {
 }
 
 .section-four {
+    background-image: linear-gradient(#dbc9bd,#eff0eb);
     height: 33vh;
     display: flex;
     margin: 0 auto;
@@ -148,9 +160,11 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3882f6;
     margin: 9vh auto;
     border-radius: 10px;
+    background-image: linear-gradient(#dbc9bd,#c89031);
+    color: #F9FAF8;
+
 }
 
 
@@ -163,7 +177,7 @@ a {
     padding: 5em
 }
 .sign-up {
-    background-color: #3882f6;
+    background-color: #4a2222;
     color: #F9FAF8;
     padding: 5px 25px 5px 25px;
     border-radius: 7px ;
@@ -179,21 +193,20 @@ button {
 }
 
 .action {
-    border: 2px white solid;
+    border: 2px #d8a667 solid;
 }
 button:hover {
-    background-color: #0f131a;
+    background-color: #332114 ;
 }
 
 .sign-up:hover {
-    background-color: #074dbd;
-
+    background-color: #815830;
 }
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0f131a;
+    background-color: #674627;
     height: 50px;
 }
 

@@ -85,8 +85,11 @@ a {
     text-align: center;
     width: 50%;
     height: auto;
+}
 
-
+.heroImageContent {
+    width: auto;
+    height: 30vh;
 }
 .section-two {
     display: block;
@@ -196,7 +199,8 @@ button {
     border: 2px #d8a667 solid;
 }
 button:hover {
-    background-color: #332114 ;
+    background-color: #573922;
+    transition-duration: 500ms;
 }
 
 .sign-up:hover {
